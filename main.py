@@ -15,8 +15,8 @@ async def on_message(message):
     if message.author == client.user:
         return
 
-    if message.content.startswith('$flag'):
-        await message.channel.send('vishwactf{discord_spilled_the_beans}')
+    # if message.content.startswith('$flag'):
+    #     await message.channel.send('vishwactf{discord_spilled_the_beans}')
 
     if message.content.startswith('$hello'):
         await message.channel.send('vishwactf{hello}')
